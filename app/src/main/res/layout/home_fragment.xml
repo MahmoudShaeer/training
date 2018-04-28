@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="Levels in Faculty of science"
+        android:textColor="#023a3e"
+        android:textSize="17dp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center|bottom"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/HomeFragment_btn_LevelOne"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_margin="20dp"
+            android:background="@drawable/shape_button"
+            android:text="Level one"
+            android:textAllCaps="false"
+
+            android:textColor="#fff"
+            android:textSize="17dp"
+            android:textStyle="bold" />
+
+
+        <Button
+            android:id="@+id/HomeFragment_btn_Leveltwo"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_margin="20dp"
+            android:background="@drawable/shape_button"
+            android:text="Level two"
+            android:textAllCaps="false"
+            android:textColor="#fff"
+
+            android:textSize="17dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center|top"
+
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/HomeFragment_btn_LevelThree"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_margin="20dp"
+            android:background="@drawable/shape_button"
+            android:text="Level three"
+            android:textAllCaps="false"
+            android:textColor="#fff"
+            android:textSize="17dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/HomeFragment_btn_Levelfour"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_margin="20dp"
+            android:background="@drawable/shape_button"
+            android:text="Level four"
+
+            android:textAllCaps="false"
+            android:textColor="#fff"
+            android:textSize="17dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

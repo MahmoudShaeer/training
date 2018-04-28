@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_white"
+    android:orientation="vertical"
+    tools:context="com.example.mac.taskpentavaluecompany.view.activity.LoginActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/geometric_shapes" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="75.5dp"
+                android:layout_marginTop="60.75dp"
+                android:background="@drawable/logo_rotato" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5.35dp"
+                android:layout_marginLeft="48.25dp"
+                android:layout_marginTop="122.5dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sign In"
+                    android:textAllCaps="true"
+                    android:textColor="#343e49"
+                    android:textSize="18.75sp" />
+
+                <TextView
+                    android:layout_width="23.75dp"
+                    android:layout_height="2dp"
+                    android:layout_gravity="end"
+                    android:layout_marginTop="3.75dp"
+                    android:background="@drawable/shape_underline_signin" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="74.5dp"
+            android:layout_marginRight="74.5dp"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/LoginActivity_EditText_mobileNumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="73.75dp"
+                android:drawableLeft="@drawable/icon_phone"
+                android:drawablePadding="10dp"
+                android:hint="@string/mobile_no"
+                android:inputType="phone"
+                android:textColorHint="#343e49"
+
+                android:textSize="12.5sp" />
+
+
+            <EditText
+                android:id="@+id/LoginActivity_EditText_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/icon_pass"
+                android:drawablePadding="10dp"
+                android:hint="@string/password"
+                android:inputType="textPassword"
+                android:maxLines="1"
+                android:textColorHint="#343e49"
+                android:textSize="12.5sp" />
+
+            <TextView
+                android:id="@+id/LoginActivity_TextView_forgetPassword"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="19.75dp"
+                android:gravity="end"
+                android:text="@string/forget_password"
+                android:textColor="#343e49" />
+
+            <Button
+                android:id="@+id/LoginActivity_btn_send"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="26.25dp"
+                android:background="@drawable/shape_btn_login"
+                android:text="@string/send"
+                android:textAllCaps="false"
+                android:textColor="#ffffff"
+                android:textSize="16.43sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center"
+            android:layout_marginBottom="55.25dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/for_help_contact_us"
+                android:textColor="#343e49"
+                android:textSize="10.94sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=", Contact us"
+                android:textColor="#78b06b"
+                android:textSize="10.94sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="!"
+                android:textColor="#343e49" />
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>

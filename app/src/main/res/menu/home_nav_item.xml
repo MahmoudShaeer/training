@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/home"
+        android:title="Home" />
+
+    <item
+        android:id="@+id/nav_profile"
+        android:icon="@drawable/profile"
+        android:title="profile" />
+
+
+
+    <item
+        android:id="@+id/nav_myCourses"
+        android:title="My Courses" />
+    <item
+        android:id="@+id/nav_about_us"
+        android:title="about us" />
+
+
+    <item
+        android:id="@+id/navـhelp"
+        android:title="help" />
+
+    <item
+        android:id="@+id/nav_logout"
+        android:title="logout" />
+
+
+
+</menu>
